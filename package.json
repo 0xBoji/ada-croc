@@ -1,0 +1,21 @@
+{
+  "name": "@adacroc/create-greeter",
+  "version": "1.0.1",
+  "description": "Create Cardano dApps with one command",
+  "bin": {
+    "create-greeter": "./bin/cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^12.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "type": "module"
+}
